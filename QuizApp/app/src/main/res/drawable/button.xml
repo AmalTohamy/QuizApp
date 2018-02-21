@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Code for rounded buttons from Stack overflow answer
+https://stackoverflow.com/questions/6054562/how-to-make-the-corners-of-a-button-round
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+    <corners
+        android:radius="27dp" />
+    <solid
+        android:color="#00766c" />
+    <size
+        android:width="270dp"
+        android:height="60dp" />
+</shape>
