@@ -50,9 +50,7 @@ public class ResultPage extends AppCompatActivity {
         String resultMsg = QuizPage.result + "/10";
         scoreResult.setText(resultMsg);
 
-        String message;
-        return message = name + " Result at Brain quiz is " + resultMsg;
-        //return message;
+        return name + " Result at Brain quiz is " + resultMsg;
     }
 
     public void exit(View view)
