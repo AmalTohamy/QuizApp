@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#26a69a</item>
+        <item name="colorPrimaryDark">#00766c</item>
+        <item name="colorAccent">#64d8cb</item>
+    </style>
+
+    <style name="ChoicesStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:buttonTint">#00766c</item>
+        <item name="android:checked">false</item>
+    </style>
+
+    <style name="questionStyle">
+        <item name="android:background">@drawable/layout_shape</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+
+    <style name="ResultPageButtons">
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:shadowColor">#64d8cb</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/last_page_buttons</item>
+    </style>
+
+</resources>
